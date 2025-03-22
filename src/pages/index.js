@@ -18,9 +18,23 @@ function HomepageHeader() {
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
+            className="button button--secondary button--lg margin-right--md"
+            to="/docs/getting-started">
             Generate a Resume ⏱️
+          </Link>
+          <Link
+            className="button button--secondary button--lg margin-right--md"
+            href="https://www.npmjs.com/package/faux-cv"
+            target="_blank"
+            rel="noopener noreferrer">
+            View on NPM 📦
+          </Link>
+          <Link
+            className="button button--secondary button--lg"
+            href="https://buymeacoffee.com/UXIHrT46vs"
+            target="_blank"
+            rel="noopener noreferrer">
+            Buy Me a Coffee ☕
           </Link>
         </div>
       </div>
@@ -32,8 +46,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`${siteConfig.title} - Generate Realistic Fake Resumes`}
+      description="A powerful Node.js library for creating customizable, realistic resumes for testing and development">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

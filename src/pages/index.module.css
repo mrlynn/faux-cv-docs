@@ -14,10 +14,29 @@
   .heroBanner {
     padding: 2rem;
   }
+
+  .buttons {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .buttons a {
+    margin: 0 !important;
+  }
 }
 
 .buttons {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 2rem 0;
+}
+
+.buttons a {
+  transition: all 0.3s ease;
+}
+
+.buttons a:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
 }

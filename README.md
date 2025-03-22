@@ -37,6 +37,13 @@ We welcome contributions to improve the documentation! Please feel free to:
 2. Suggest improvements
 3. Submit pull requests
 
+## Sponsor / Say Thanks
+
+# These are supported funding model platforms
+
+github: [mrlynn]
+buy_me_a_coffee: [uxihrt46vs]
+
 ## License
 
 This documentation is licensed under the MIT License. See the LICENSE file for details.

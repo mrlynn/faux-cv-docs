@@ -41,6 +41,7 @@ const sidebars = {
       label: 'Resources',
       items: [
         'examples',
+        'troubleshooting',
       ],
     },
   ],
